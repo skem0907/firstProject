@@ -10,7 +10,7 @@ char *my_strcpy(char *t, char *s)
 {
 	char *p = t; 
 	while (*t ++ = *s ++);
-	return p;
+	return 0;
 }
 
 gogogogo my_strlen(char *s)
