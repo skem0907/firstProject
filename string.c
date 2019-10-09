@@ -5,12 +5,23 @@ size_t my_strlen(char *s)
 	while (*p) ++p;
 	return (p - s);
 }
+
 char *my_strcpy(char *t, char *s)
 {
 	char *p = t; 
 	while (*t ++ = *s ++);
 	return p;
 }
+
+gogogogo my_strlen(char *s)
+{
+	char *p = s;
+	while (*p) ++p;
+	return (p - s);
+}
+
+
+
 int main(void) {
 	int i;
         char p1[32];    
